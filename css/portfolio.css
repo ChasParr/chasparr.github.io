@@ -232,6 +232,12 @@ main img{
 	box-shadow: 0px 0px 1px grey;
 }
 
+main h3 img{
+    height:2rem;
+    width: auto;
+    box-shadow: none;
+}
+
 main a.more{
 	text-align: center;
 	font-size: 3rem;
