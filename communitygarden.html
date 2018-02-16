@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="media/icon.png">
+	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+	<title>Chas Parr Portfolio - Community Garden</title>
+	<script src="js/portfolio.js"></script>
+</head>
+
+<body>
+	<nav>
+		<!--CP logo-->
+		<a  class="logo" href="index.html"><img src="media/CPlogo.png" alt="Chas Parr"></a>
+		
+		<!--left side of menu-->
+		<ul class="left">
+			<!--dropdown menu for mobile--> 
+			<li>
+				<a class="projects no-desk" href="javascript:void(0)"  onclick="dropDown('projectsMenu')">Projects</a>
+				<div id="projectsMenu" class="dropdown no-desk">
+					<a href="current.html">Current/Recent</a>
+					<a href="games.html">Games</a>
+					<a href="webdesign.html">Web Design</a>
+					<a href="3d.html">3D Modeling</a>
+				</div>
+			</li>
+			
+			<!--hidden in mobile-->
+			<li><a class="no-mobile" href="current.html">Current/Recent</a></li>
+			<li><a class="no-mobile" href="games.html">Games</a></li>
+			<li><a class="no-mobile" href="webdesign.html">Web Design</a></li>
+			<li><a class="no-mobile" href="3d.html">3D Modeling</a></li>
+		</ul>
+		
+		<!--right side of menu-->
+		<ul class="right">
+			<li><a href="notes.html">Notes</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<header>
+		<h1>Community Garden</h1>
+	</header>
+	<main>
+		<section>
+			<div class="content">
+				<div class="row">
+					<div class="col-4">
+						<img src="media/garden1.jpg" alt="watering seeds">
+					</div>
+					<div class="col-4">
+						<img src="media/garden2.jpg" alt="garden with flowers">
+					</div>
+					<div class="col-4">
+						<img src="media/garden3.jpg" alt="garden help screen">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="content">
+				<p>
+					<strong>Group size:</strong> Solo<br>
+					<strong>Dates:</strong> Spring 2017 - Ongoing<br>
+					<strong>Role:</strong> Game mechanics, art, server<br>
+					<strong>Summary:</strong> A cooperative online gardening game. Users can plant seeds, 
+                    which can be watered by any user in the room. Watering plants makes them grow over time 
+                    and also gives users "Karma" which is used as a currency. In a final version of the game 
+                    Karma would also be purchasable through microtransactions, represented here by the buttons 
+                    at the bottom.<br>
+					<a href="https://github.com/ChasParr/community-garden">Link to Github</a>
+				</p>
+			</div>
+		</section>
+	</main>
+</body>
+</html>
